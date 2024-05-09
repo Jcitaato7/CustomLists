@@ -37,6 +37,11 @@ This Java program consists of two classes: `CustomLists` and `Main`. The `Custom
 1. Compile the Java files using a Java compiler.
 2. Run the `Main` class.
 
+```
+
+## Contributions
+Contributions are welcome. If you wish to improve the class or add more functionality, please fork the repository and submit a pull request.
+
 ## License
-This code is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is open-sourced under the MIT license.
 
