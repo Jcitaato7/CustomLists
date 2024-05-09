@@ -18,25 +18,43 @@ This Java program consists of two classes: `CustomLists` and `Main`. The `Custom
 - `isEmpty()`: Checks if the list is empty.
 - `print()`: Prints the elements of the list.
 
-## Main Class
-
-### Description
-- The `Main` class provides a demonstration of how to use the functionalities of the `CustomLists` class.
-
 ### Example Usage
-1. Creates a custom list.
-2. Adds elements to the list using `addFirst()` and `addLast()` methods.
-3. Prints the list.
-4. Checks if the list contains a value and prints the result.
-5. Finds the index of an item in the list and prints it.
-6. Deletes the first item in the list.
-7. Deletes the last item in the list.
-8. Prints the size of the list.
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("\n");
+        System.out.println("****************Custom Lists******************");
+        CustomLists list = new CustomLists();
+        list.addFirst(10);
+        list.addFirst(20);
+        list.addFirst(30);
 
-## How to Run
-1. Compile the Java files using a Java compiler.
-2. Run the `Main` class.
+        list.addLast(40);
+        list.addLast(50);
+        list.addLast(60);
+        list.print();
 
+        System.out.println("\n");
+        System.out.println("contains value: " + list.contains(100));
+
+        System.out.println("\n");
+        System.out.println("index of item: " + list.indexOf(600));
+
+        System.out.println("\n");
+        System.out.println("Delete the first item in teh list:");
+        list.deleteFirst();
+        list.print();
+
+        System.out.println("\n");
+        System.out.println("Delete the last item in teh list:");
+        list.deleteLast();
+        list.print();
+
+        System.out.println("\n");
+        System.out.println("List size: " + list.Size());
+
+    }
+}
 ```
 
 ## Contributions
