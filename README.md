@@ -1,6 +1,6 @@
 # Custom Lists
 
-This Java program consists of a `CustomLists` class. This class implements a custom linked list data structure.
+This Java program consists of a `CustomLists` class in the master branch. This class implements a custom linked list data structure.
 
 ## CustomLists Class
 
