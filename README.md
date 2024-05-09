@@ -1,6 +1,6 @@
 # Custom Lists
 
-This Java program consists of two classes: `CustomLists` and `Main`. The `CustomLists` class implements a custom linked list data structure, while the `Main` class provides a demonstration of how to use the functionalities of the custom list.
+This Java program consists of a `CustomLists` class. This class implements a custom linked list data structure.
 
 ## CustomLists Class
 
