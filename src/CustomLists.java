@@ -70,15 +70,7 @@ public class CustomLists {
     }
     public boolean contains(int item)
     {
-        if (isEmpty())
-            return false;
-        var current = first;
-        while (current != null){
-            if (current.value == item)
-                return true;
-            current = current.next;
-        }
-        return false;
+        return indexOf(item) != -1;
     }
     public int indexOf(int item)
     {
