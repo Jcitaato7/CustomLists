@@ -38,24 +38,30 @@ public class CustomLists {
     {
         if (isEmpty())
             throw new NoSuchElementException();
+
+        if (first == last)
+            first = last=null;
         else {
             var temp = first.next;
             first.next = null;
             first = temp;
-
-            size--;
         }
+        size--;
     }
     public void deleteLast(){
         if (isEmpty())
             throw new NoSuchElementException();
-        else {
+
+        if (first == last)
+            first = last = null;
+        else{
             var previous = getPrevious();
             if (previous != null){
                 previous.next = null;
                 last = previous;
             }
         }
+        size--;
     }
 
     private Node getPrevious(){
