@@ -40,7 +40,7 @@ public class CustomLists {
             throw new NoSuchElementException();
         else {
             var temp = first.next;
-            first = null;
+            first.next = null;
             first = temp;
 
             size--;
